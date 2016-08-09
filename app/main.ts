@@ -1,4 +1,11 @@
-import {bootstrap}    from '@angular/platform-browser-dynamic';
-import {AppComponent} from './app.component';
+import { bootstrap } from '@angular/platform-browser-dynamic';
+import { enableProdMode } from '@angular/core';
 
-bootstrap(AppComponent);
+import { AppComponent } from './Components/App/app.component'
+
+//enableProdMode(); //Uncomment for production
+
+bootstrap(AppComponent).then(
+    success => console.log('AppComponent bootstrapped!'),
+    error => console.log(error)
+);
