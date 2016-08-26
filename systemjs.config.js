@@ -6,7 +6,7 @@
 
   // map tells the System loader where to look for things
   var map = {
-    'app':                        'wwwroot/app', // 'dist',
+    'app':                        'app/', // 'dist',
 
     '@angular':                   'node_modules/@angular',
     'rxjs':                       'node_modules/rxjs'
